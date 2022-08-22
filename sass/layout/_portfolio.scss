@@ -63,7 +63,7 @@
 
   @include font($fs: 18px, $lh: 28px);
 
-  overflow-y: scroll;
+  overflow-y: auto;
   transform: translateY(100%);
   transition: transform var(--transition-duration) var(--transition-timing-function);
 
